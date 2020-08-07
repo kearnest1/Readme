@@ -1,8 +1,4 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-    return `# ${data.title}
-  
-    # Your Project Title
+# Your Project Title
 README
 
 ## Description 
@@ -46,12 +42,3 @@ index.js
 ## Questions
 
 If you have any questions please reach out to me at kearnest10@gmail or go directly to my account [kearnest1](https://github.com/kearnest1)
-
-    
-  `;
-
-  
-  }
-  
-  module.exports = generateMarkdown;
-  console.log(generateMarkdown)
